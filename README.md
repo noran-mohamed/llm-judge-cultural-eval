@@ -20,8 +20,10 @@ Agreement with my human labels (binary: PASS vs. NOT_PASS, n = 40):
 ### Findings
 
 1. **Giving the judge my reference answer was the largest effect.** Kappa rose from 0.34 to 0.77 for Qwen and from 0.53 to 0.78 for Gemma, and raw agreement reached 90% for both. The same pattern appeared in two model families. With n = 40 the confidence intervals overlap, so this is suggestive, not conclusive. Part of the gain is by construction, since the reference encodes my standard: reference-guided judges are reliable when a good reference is available, but this does not show they can verify cultural knowledge on their own.
+   
 2. **Without a reference, the judges were unreliable in different ways.** Gemma was uniformly lenient (10 lenient errors, 0 strict). Qwen's errors went in both directions (7 lenient, 5 strict).
-3. **Gemma's reference-free leniency fell partly on culturally grounded items.** 5 of its 10 errors were in Islamic-domain hallucination (3) and Cultural alignment (2), meaning it passed 5 of the 7 responses in those categories that I had marked NOT_PASS. With the reference, its errors in those categories dropped from 5 to 2. This is descriptive: there are only 4 items per category.
+   
+3. **Gemma's reference-free leniency fell partly on culturally grounded items.** 5 of its 10 errors were in Islamic-domain hallucination (3) and Cultural alignment (2), meaning it passed 5 of the 7 responses in those categories that I had marked NOT_PASS. With the reference, its errors in those categories dropped from 5 to 2. This is descriptive: each category has only 4 items.
 
 ### Disagreements by category
 
