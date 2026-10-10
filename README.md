@@ -2,7 +2,7 @@
 
 I hand-labeled 40 responses from a base model on Arabic/English and culturally grounded prompts, then measured how well two open-weight LLM judges agree with my labels, with and without access to my reference answers.
 
-**Related work:** The evaluation that produced the data (Qwen3-1.7B-Base blind-spot dataset): [https://huggingface.co/datasets/NoranAbdelrahem/data4evaluation]
+**Related work:** The evaluation that produced the data (https://huggingface.co/datasets/NoranAbdelrahem/data4evaluation): [Qwen3-1.7B-Base blind-spot dataset]
 
 ## Key results
 
