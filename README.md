@@ -76,6 +76,7 @@ Rows I labeled NOT_PASS because the response broke an instruction. PASS here mea
 - **Small sample:** 40 items in total and 4 per category. Confidence intervals are wide, and category-level observations are descriptive only.
 - **Single annotator:** all labels are mine, so there is no human inter-annotator agreement.
 - **One generator:** all responses come from one small base model.
+- **Rubric mismatch on format rules:** the rubric did not instruct the judges to enforce format constraints, which my labels did.
 - **Small, quantized judges:** results describe these two 4-bit judges, not LLM judges in general.
 - **Possible self-preference:** Qwen2.5 and the evaluated Qwen3 model share a vendor.
 
